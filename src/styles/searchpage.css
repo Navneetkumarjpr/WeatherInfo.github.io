@@ -128,11 +128,11 @@
    @media screen and (max-width:400px) {
     .searchhead{
         width: 185%;
-        background-color: slateblue;
+        /* background-color: slateblue; */
     }
     .searchpage{
         width: 100%;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
     }
 
@@ -144,7 +144,7 @@
     }
     .searchhead{
         width: 250%;
-        background-color: slateblue;
+        /* background-color: slateblue; */
     }
     .searchpage{
         width: 100%;
