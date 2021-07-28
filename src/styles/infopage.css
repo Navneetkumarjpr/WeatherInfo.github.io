@@ -1,0 +1,156 @@
+.infopage{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cityheading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cityhead{
+    font-size: 3rem;
+}
+
+.middlepart{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* background-color: brown; */
+}
+.tempvalue{
+    font-size: 4rem;
+}
+.tempdescrp{
+    padding-left: 0.5rem ;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.minmaxtemp{
+    margin-top: 2rem;
+    /* padding-left: 0.5rem ; */
+
+}
+.max{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+.min{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+.weatherimage{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+.middleimage{
+    width: 50%;
+}
+.longitude{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.latitude{
+    padding: 0.5rem;
+    font-size: 1.5rem;
+
+}
+.belowpart{
+    width: 100%;
+    display: flex;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    justify-content: space-evenly;
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.right{
+    width: 50%;
+    justify-content: space-evenly;
+
+    display: flex;
+}
+
+.coordinate{
+    display: flex;
+}
+
+@media screen and (max-width:950px) {
+    .belowpart{
+        display: flex;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+  }
+
+  
+@media screen and (max-width:800px) {
+    .tempvalue{
+        font-size:4rem ;
+    }
+    .max{
+        font-size: 1.7rem;
+    }
+    .min{
+        font-size: 1.7rem;
+    }
+    .middlepart{
+        flex-direction: column;
+    }
+    .temp{
+        /* background-color: red; */
+        width: 100%;
+        align-items: center;
+    }
+    .weatherimage{
+        width: 100%;
+        align-items: center;
+
+    }
+    .coordinate{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red; */
+    }
+    .longitude{
+        font-size: 2rem;
+    }
+    .latitude{
+        font-size: 2rem;
+    }
+  }
+/* 
+  @media screen and (max-width:750px) {
+    .tempvalue{
+        font-size:2.7rem ;
+    }
+   .longitude{
+       font-size: 1rem;
+   }
+   .latitude{
+       font-size: 1rem;
+   }
+   
+  } */

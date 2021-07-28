@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(239, 248, 246);
+}
+.App{
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.info{
+  margin-top: 3%;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  padding: 20px 0;
+}
+.navbar::before{
+  content: "";
+	display: block;
+  top: -55px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 10rem;
+	z-index: -1;
+	transform: skewY(-3.5deg);
+	background: 
+		linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+		url(https://images.unsplash.com/photo-1495464101292-552d0b52fe41?auto=format&fit=crop&w=1350&q=80) no-repeat center,
+		linear-gradient(#4e4376, #2b5876);
+	background-size: cover;
+	border-bottom: .5em solid grey;
+}
+.nav{
+  margin-left: 1rem;
+}
+.heading{
+  font-size: 3.5rem;
+  letter-spacing: 1.5px;
+  color: whitesmoke;
+  text-shadow: .06em .022em .022em rgb(250, 7, 7),  0 .06em .022em rgb(250, 124, 7);
+  transition: all 0.5s ease-in-out;
+
+}
+.heading:hover{
+  color: black;
+}
+.navbar-item{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 2rem;
+  height: 3.6rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 0.09em;
+  margin-left: 0.5rem;
+  background-color: rgb(128, 128, 128);
+  border-radius: 7px;
+}
+.navitem1{
+  padding-bottom: 1.4rem;
+}
+.navitem2{
+  margin-left: 2rem;
+  padding-bottom: 0.9rem;
+
+}
+
+@media screen and (max-width:1350px) {
+  .navitem1{
+    padding-bottom: 1.9rem;
+  }
+  .navitem2{
+    padding-bottom: 1.4rem;
+  
+  }
+}
+
+@media screen and (max-width:1000px) {
+  .navitem1{
+    padding-bottom: 2.2rem;
+  }
+  .navitem2{
+    padding-bottom: 1.7rem;
+  
+  }
+}
+
+
+@media screen and (max-width:800px) {
+  .navitem1{
+    padding-bottom: 2.5rem;
+  }
+  .navitem2{
+    padding-bottom: 2rem;
+  
+  }
+}
+@media screen and (max-width:800px) {
+  .heading{
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .heading{
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+  .navitem1{
+    padding-bottom: 2.8rem;
+    /* margin-top: 0px; */
+  }
+  .navitem2{
+    padding-bottom: 2.4rem;
+  
+  }
+}
+/* @media screen and (max-width:800px) {
+  .navitem1{
+    padding-bottom: 2.5rem;
+  }
+  .navitem2{
+    padding-bottom: 2rem;
+  
+  }
+} */
+.navbar-item:hover{
+  color: rgb(10, 13, 14);
+}
+
+.about{
+  color: rgb(9, 10, 12);
+}
