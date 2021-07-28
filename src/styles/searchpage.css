@@ -114,12 +114,26 @@
        width: 90vw;
    }
    }
+   @media screen and (max-width:400px) {
+    .searchhead{
+        width: 185%;
+        background-color: slateblue;
+    }
+    .searchpage{
+        width: 100%;
+        background-color: tomato;
+    }
+    }
 
    @media screen and (max-width:300px) {
     .submitlink{
         width: 80vw ;
         height: 4rem;
         font-size: 1.5rem;
+    }
+    .searchhead{
+        width: 250%;
+        background-color: slateblue;
     }
     .searchpage{
         width: 100%;
