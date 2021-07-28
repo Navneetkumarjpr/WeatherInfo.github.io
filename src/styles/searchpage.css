@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     padding: 5rem;
+    /* background-color: sienna; */
 }
 .searchhead{
     font-size: 3rem;
@@ -12,9 +13,11 @@
 }
 .seachbar{
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     padding: 3rem;
+    width: 100%;
+    /* background-color: seagreen; */
 }
 .cityname{
     width: 30rem;
@@ -86,6 +89,7 @@
        font-size: 2.5rem;
    }
    .seachbar{
+       /* background-color: rgb(235, 135, 135); */
        display: flex;
        flex-direction: column;
    }
@@ -93,4 +97,48 @@
        margin: 10px 0;
        
    }
+   .searchhead{
+       font-size: 2rem;
+   }
   }
+
+  @media screen and (max-width:1100px) {
+    .submitlink{
+        height: 3.5rem;
+        font-size: 1.3rem;
+    }
+
+    }
+  @media screen and (max-width:700px) {
+   .cityname{
+       width: 90vw;
+   }
+   }
+
+   @media screen and (max-width:300px) {
+    .submitlink{
+        width: 80vw ;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    .searchpage{
+        width: 100%;
+    }
+    }
+    @media screen and (max-width:150px) {
+        .submitlink{
+            font-size: 1rem;
+            width: 6rem;
+        }
+        .searchpage{
+            width: 100%;
+        }
+        .cityname{
+            width: 8rem;
+        }
+        .submit{
+            font-size: 1rem;
+            width: 6rem;
+
+        }
+        }
