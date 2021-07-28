@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const SearchPage = (props) => {
     const{updateCity,getWeather}=props;
     return (
-        <>
+        <div className="page">
         <div className="searchpage">
             <h1 className="searchhead">Find the weather of your City Here</h1>
             <div className="seachbar" >
@@ -13,7 +13,7 @@ const SearchPage = (props) => {
                <NavLink to="/info" className="submitlink">View Information</NavLink>
             </div>
         </div>
-        </>
+        </div>
     )
 }
 
