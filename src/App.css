@@ -121,22 +121,12 @@ body{
   }
   .navitem1{
     padding-bottom: 2.8rem;
-    /* margin-top: 0px; */
   }
   .navitem2{
     padding-bottom: 2.4rem;
   
   }
 }
-/* @media screen and (max-width:800px) {
-  .navitem1{
-    padding-bottom: 2.5rem;
-  }
-  .navitem2{
-    padding-bottom: 2rem;
-  
-  }
-} */
 .navbar-item:hover{
   color: rgb(10, 13, 14);
 }

@@ -32,7 +32,7 @@ const getWeather=async (e)=>{
       </div>
       <div className="info">
       <Switch>
-          <Route path="/" exact><SearchPage updateCity={updateCity} getWeather={getWeather}/></Route>
+          <Route path="/"><SearchPage updateCity={updateCity} getWeather={getWeather}/></Route>
           <Route path="/about"><About/></Route>
           <Route path="/info">{weather!=null?<InfoPage weather={weather}/>:<Error/>}</Route>
       </Switch>
